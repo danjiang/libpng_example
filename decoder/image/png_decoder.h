@@ -27,10 +27,6 @@ public:
     ~PngDecoder();
 
     RawImageData ReadImage(std::string file);
-    void DeleteImage();
-    
-private:
-    char *compressed_data_;
 };
 
 }
